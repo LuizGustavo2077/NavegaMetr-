@@ -1,0 +1,26 @@
+{
+  "name": "navegametro",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@capacitor/core": "^5.0.0",
+    "@capacitor/geolocation": "^5.0.0",
+    "@ionic/react": "^7.0.0",
+    "@ionic/react-router": "^7.0.0",
+    "ionicons": "^7.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.11.0",
+    "react-router-dom": "^6.11.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^5.1.0"
+  },
+  "scripts": {
+    "start": "ionic start --no-deps && ionic serve",
+    "build": "react-scripts build",
+    "ionic:serve": "ionic serve"
+  }
+}
